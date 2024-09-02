@@ -1,0 +1,14 @@
+installare react:
+npm create vite@latest my-react-app --template react
+Aggiorna React e ReactDOM:
+npm install react@latest react-dom@latest
+Reinstalla le dipendenze:
+rm -rf node_modules
+npm install 
+Pulisci la Cache:
+rm -rf node_modules/.vite
+Rimuovi la Cartella dist:
+rm -rf dist
+
+vscode estensione: 
+VS Code ES7+ React/Redux/React-Native/JS snippets
